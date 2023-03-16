@@ -1,4 +1,5 @@
 import characterData from "./data";
+import Character from "./Character";
 
 function render() {
     document.getElementById(wizard.elementId).innerHTML = wizard.getCharacterHtml();
