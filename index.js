@@ -7,6 +7,16 @@ function attack() {
     wizard.takeDamage(orc.currentDiceScore)
     orc.takeDamage(wizard.currentDiceScore)
     render()
+    if(wizard.dead || orc.dead){
+        endGame()
+    }
+}
+
+function endGame(){
+    const endMessage = wizard.health === 0 && orc.health === 0 ?
+    "No victors - all creatures are dead" :
+    wizard.health > 0 ? "The Wizard Wins" :
+    "The Orc is Victorious"
 }
 
 document.getElementById("attack-button").addEventListener('click', attack)
