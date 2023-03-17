@@ -49,7 +49,6 @@ function Character(data) {
                 </div>
             </div>`
     }
-    
 }
 
 export default Character
