@@ -14,7 +14,7 @@ I created this game using JS ES6, CSS, and HTML. Features include:
 - Destructuring and Object assignment
 - SetTimeout, map, reduce and utils functions.
 ## Links
-Try the online version
+Try it out
 https://emazack.github.io/role-playing-game/
 ## Main functions
 - The getNewMonster() function retrieves the next monster from the monstersArray and creates a new Character object using data from the characterData object.
