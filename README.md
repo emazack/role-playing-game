@@ -9,7 +9,7 @@ The attack() function is the main gameplay loop. When the player clicks on the "
 I created this game using JS ES6, CSS, and HTML. Features include:
 
 - Engaging gameplay mechanics
-- Responsive design for optimal performance on desktop and mobile devices
+- Responsive design for optimal performance on desktop until 1920x1080 and mobile devices 
 - Constructor function
 - Destructuring and Object assignment
 - SetTimeout, map, reduce and utils functions.
